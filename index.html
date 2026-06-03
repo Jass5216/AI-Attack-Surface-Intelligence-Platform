@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AI Attack Surface Intelligence Platform</title>
 
   <style>
@@ -20,8 +20,8 @@
     }
 
     .container {
-      width: 90%;
-      max-width: 1200px;
+      width: 92%;
+      max-width: 1250px;
       margin: auto;
       padding: 35px 0;
     }
@@ -31,7 +31,7 @@
       justify-content: space-between;
       align-items: center;
       gap: 25px;
-      margin-bottom: 40px;
+      margin-bottom: 45px;
     }
 
     .logo-box {
@@ -41,30 +41,30 @@
     }
 
     .logo-box img {
-      width: 90px;
-      height: 90px;
+      width: 95px;
+      height: 95px;
       object-fit: contain;
       background: white;
       padding: 8px;
-      border-radius: 15px;
+      border-radius: 16px;
     }
 
     .logo-box h3 {
       color: #22d3ee;
-      font-size: 22px;
+      font-size: 24px;
     }
 
     .logo-box p {
       color: #e2e8f0;
-      font-size: 15px;
+      font-size: 16px;
     }
 
     .hero {
       text-align: center;
-      background: rgba(2, 6, 23, 0.82);
-      border: 1px solid rgba(34, 211, 238, 0.4);
-      border-radius: 25px;
-      padding: 55px 25px;
+      background: rgba(2, 6, 23, 0.85);
+      border: 1px solid rgba(34, 211, 238, 0.45);
+      border-radius: 26px;
+      padding: 60px 25px;
       box-shadow: 0 0 45px rgba(34, 211, 238, 0.25);
     }
 
@@ -72,6 +72,7 @@
       font-size: 54px;
       line-height: 1.15;
       text-transform: uppercase;
+      letter-spacing: 1px;
     }
 
     .hero h1 span {
@@ -86,7 +87,7 @@
 
     .hero p {
       max-width: 850px;
-      margin: 24px auto;
+      margin: 25px auto;
       font-size: 18px;
       line-height: 1.7;
       color: #cbd5e1;
@@ -97,7 +98,7 @@
       justify-content: center;
       flex-wrap: wrap;
       gap: 18px;
-      margin-top: 30px;
+      margin-top: 32px;
     }
 
     .btn {
@@ -124,14 +125,14 @@
     }
 
     .section {
-      margin-top: 55px;
+      margin-top: 60px;
     }
 
     .section h2 {
       text-align: center;
       color: #38bdf8;
-      font-size: 36px;
-      margin-bottom: 28px;
+      font-size: 38px;
+      margin-bottom: 30px;
     }
 
     .cards {
@@ -141,16 +142,18 @@
     }
 
     .card {
-      background: rgba(15, 23, 42, 0.9);
+      background: rgba(15, 23, 42, 0.92);
       border: 1px solid rgba(56, 189, 248, 0.35);
       border-radius: 18px;
       padding: 25px;
       text-align: center;
+      min-height: 150px;
     }
 
     .card h3 {
       color: #00d9ff;
       margin-bottom: 12px;
+      font-size: 22px;
     }
 
     .card p {
@@ -169,21 +172,25 @@
       background: rgba(15, 23, 42, 0.92);
       border: 1px solid rgba(56, 189, 248, 0.35);
       border-radius: 18px;
-      padding: 15px;
+      padding: 16px;
+      overflow: hidden;
     }
 
     .screenshot-card img {
       width: 100%;
-      min-height: 180px;
+      height: 240px;
       object-fit: cover;
+      object-position: top;
       border-radius: 12px;
       border: 1px solid rgba(255,255,255,0.15);
+      background: #020617;
     }
 
     .screenshot-card h3 {
       color: #38bdf8;
       text-align: center;
-      margin-top: 14px;
+      margin-top: 15px;
+      font-size: 22px;
     }
 
     .team {
@@ -205,6 +212,12 @@
     .member h3 {
       color: #00d9ff;
       margin-bottom: 10px;
+      font-size: 23px;
+    }
+
+    .member p {
+      color: #e2e8f0;
+      font-size: 17px;
     }
 
     .footer {
@@ -226,6 +239,10 @@
 
       .hero h2 {
         font-size: 21px;
+      }
+
+      .screenshot-card img {
+        height: 200px;
       }
     }
   </style>
@@ -291,7 +308,7 @@
 
         <div class="card">
           <h3>🤖 AI Risk Analysis</h3>
-          <p>Uses AI to analyze scan data and calculate risk score.</p>
+          <p>Uses AI to analyze scan data and calculate cyber risk score.</p>
         </div>
 
         <div class="card">
@@ -305,25 +322,43 @@
       <h2>Project Screenshots</h2>
 
       <div class="screenshots">
+
         <div class="screenshot-card">
-          <img src="screenshots/dashboard-home.png" alt="Dashboard Home">
+          <img
+            src="screenshots/dashboard-home.png"
+            alt="Dashboard Home"
+            onerror="this.onerror=null; this.src='screenshots/dashboard-home.jpeg';"
+          >
           <h3>Dashboard Home</h3>
         </div>
 
         <div class="screenshot-card">
-          <img src="screenshots/executive-summary.png" alt="Executive Summary">
+          <img
+            src="screenshots/executive-summary.png"
+            alt="Executive Summary"
+            onerror="this.onerror=null; this.src='screenshots/executive-summary.jpeg';"
+          >
           <h3>Executive Summary</h3>
         </div>
 
         <div class="screenshot-card">
-          <img src="screenshots/open-ports.png" alt="Open Ports">
+          <img
+            src="screenshots/open-ports.png"
+            alt="Open Ports"
+            onerror="this.onerror=null; this.src='screenshots/open-ports.jpeg';"
+          >
           <h3>Open Ports & Assets</h3>
         </div>
 
         <div class="screenshot-card">
-          <img src="screenshots/ai-summary.png" alt="AI Summary">
+          <img
+            src="screenshots/ai-summary.png"
+            alt="AI Summary"
+            onerror="this.onerror=null; this.src='screenshots/ai-summary.jpeg';"
+          >
           <h3>AI Analyst Summary</h3>
         </div>
+
       </div>
     </section>
 
