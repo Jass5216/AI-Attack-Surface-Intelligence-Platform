@@ -1,0 +1,25 @@
+====================================
+ CYBER SECURITY RECONNAISSANCE REPORT
+====================================
+
+Target Domain: google.com
+Generated On: 2026-03-08 12:23:02.895511
+
+----- Subdomains -----
+www.google.com
+api.google.com
+mail.google.com
+vpn.google.com
+admin.google.com
+blog.google.com
+shop.google.com
+
+----- Open Ports -----
+80
+443
+
+----- OSINT Data -----
+['gws']
+
+----- Discovered Directories -----
+https://google.com/dashboard

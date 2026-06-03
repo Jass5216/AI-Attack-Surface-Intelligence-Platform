@@ -1,0 +1,66 @@
+[
+    {
+        "time": "2026-06-02 18:06:09",
+        "username": "Jaskaran",
+        "role": "admin",
+        "domain": "collegedunia.com",
+        "severity": "LOW",
+        "risk_score": 43
+    },
+    {
+        "time": "2026-06-02 18:04:47",
+        "username": "Jaskaran",
+        "role": "admin",
+        "domain": "google.com",
+        "severity": "LOW",
+        "risk_score": 43
+    },
+    {
+        "time": "2026-06-02 17:49:42",
+        "username": "Jaskaran",
+        "role": "admin",
+        "domain": "www.gndec.ac.in",
+        "severity": "HIGH",
+        "risk_score": 54
+    },
+    {
+        "time": "2026-06-02 17:45:08",
+        "username": "Jaskaran",
+        "role": "user",
+        "domain": "mail.google.com",
+        "severity": "LOW",
+        "risk_score": 43
+    },
+    {
+        "time": "2026-05-16 23:21:41",
+        "username": "admin",
+        "role": "admin",
+        "domain": "www.youtube.com",
+        "severity": "HIGH",
+        "risk_score": 55
+    },
+    {
+        "time": "2026-05-16 21:21:20",
+        "username": "abc",
+        "role": "user",
+        "domain": "www.youtube.com",
+        "severity": "HIGH",
+        "risk_score": 53
+    },
+    {
+        "time": "2026-05-16 21:19:45",
+        "username": "abc",
+        "role": "user",
+        "domain": "www.youtube.com",
+        "severity": "HIGH",
+        "risk_score": 55
+    },
+    {
+        "time": "2026-05-16 21:08:42",
+        "username": "abc",
+        "role": "user",
+        "domain": "gndec.ac.in",
+        "severity": "LOW",
+        "risk_score": 45
+    }
+]

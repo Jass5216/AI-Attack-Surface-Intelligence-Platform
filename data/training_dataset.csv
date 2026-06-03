@@ -1,0 +1,11 @@
+open_ports,subdomains,directories,risky_tech,ssl_issue,risk
+2,3,1,0,0,Low
+5,10,4,1,1,Medium
+8,15,6,1,1,High
+10,20,8,1,1,Critical
+1,2,0,0,0,Low
+6,11,5,1,0,Medium
+9,18,7,1,1,High
+12,25,10,1,1,Critical
+4,7,2,0,0,Low
+7,14,5,1,1,High

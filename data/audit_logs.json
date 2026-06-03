@@ -1,0 +1,72 @@
+[
+    {
+        "time": "2026-06-02 18:06:09",
+        "username": "Jaskaran",
+        "role": "admin",
+        "action": "scan_completed",
+        "domain": "collegedunia.com"
+    },
+    {
+        "time": "2026-06-02 18:04:47",
+        "username": "Jaskaran",
+        "role": "admin",
+        "action": "scan_completed",
+        "domain": "google.com"
+    },
+    {
+        "time": "2026-06-02 18:01:21",
+        "username": "Jaskaran",
+        "role": "admin",
+        "action": "loaded_previous_report",
+        "domain": ""
+    },
+    {
+        "time": "2026-06-02 17:49:42",
+        "username": "Jaskaran",
+        "role": "admin",
+        "action": "scan_completed",
+        "domain": "www.gndec.ac.in"
+    },
+    {
+        "time": "2026-06-02 17:45:08",
+        "username": "Jaskaran",
+        "role": "user",
+        "action": "scan_completed",
+        "domain": "mail.google.com"
+    },
+    {
+        "time": "2026-05-20 22:36:32",
+        "username": "kuljeet",
+        "role": "user",
+        "action": "scan_failed",
+        "domain": "www.youtube.com"
+    },
+    {
+        "time": "2026-05-16 23:21:41",
+        "username": "admin",
+        "role": "admin",
+        "action": "scan_completed",
+        "domain": "www.youtube.com"
+    },
+    {
+        "time": "2026-05-16 21:21:20",
+        "username": "abc",
+        "role": "user",
+        "action": "scan_completed",
+        "domain": "www.youtube.com"
+    },
+    {
+        "time": "2026-05-16 21:19:45",
+        "username": "abc",
+        "role": "user",
+        "action": "scan_completed",
+        "domain": "www.youtube.com"
+    },
+    {
+        "time": "2026-05-16 21:08:42",
+        "username": "abc",
+        "role": "user",
+        "action": "scan_started",
+        "domain": "gndec.ac.in"
+    }
+]

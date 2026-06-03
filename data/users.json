@@ -1,0 +1,18 @@
+{
+    "admin": {
+        "password": "admin123",
+        "role": "admin"
+    },
+    "abc": {
+        "password": "abc123",
+        "role": "user"
+    },
+    "kuljeet": {
+        "password": "9L@p6kK6aQBhHtp",
+        "role": "user"
+    },
+    "Jaskaran": {
+        "password": "Jaskaran@123",
+        "role": "admin"
+    }
+}

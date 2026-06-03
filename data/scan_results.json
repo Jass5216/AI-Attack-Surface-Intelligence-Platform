@@ -1,0 +1,58 @@
+{
+    "domain": "collegedunia.com",
+    "subdomains": [
+        "www.collegedunia.com",
+        "assets.collegedunia.com",
+        "images.collegedunia.com"
+    ],
+    "ports": [
+        21,
+        22,
+        25,
+        53,
+        80,
+        110,
+        143,
+        443,
+        3306,
+        8080
+    ],
+    "directories": [
+        {
+            "url": "https://collegedunia.com/dashboard",
+            "status": 200
+        },
+        {
+            "url": "https://collegedunia.com/login",
+            "status": 200
+        }
+    ],
+    "technologies": [
+        "Server: CloudFront"
+    ],
+    "ai_results": {
+        "Severity": "LOW",
+        "Confidence": "43%",
+        "Risk Score": 43,
+        "Findings": [
+            "Detected 3 real DNS-resolvable subdomains",
+            "Detected 10 open ports",
+            "Detected 2 restricted or accessible paths",
+            "Detected 1 technologies"
+        ],
+        "Recommendations": [
+            "Restrict unnecessary public services",
+            "Review restricted paths and verify they do not expose sensitive information",
+            "Patch outdated technologies and server components",
+            "Enable Web Application Firewall",
+            "Continuously monitor attack surface"
+        ]
+    },
+    "llm_summary": "Summary:\nThe scan data indicates that collegedunia.com has a moderate risk score of 43, with two restricted/access paths. The presence of open ports on the CloudFront server suggests potential exposure to remote access or command and control (C2) communication.\n\nKey Points:\n\n1. Collegedunia.com has multiple subdomains.\n2. Open ports include HTTP/HTTPS, FTP, and SSH services.\n3. The presence of a CloudFront server indicates potential cloud-based infrastructure exposure.",
+    "alerts": [
+        "New subdomain detected: assets.collegedunia.com",
+        "New subdomain detected: images.collegedunia.com",
+        "New subdomain detected: www.collegedunia.com"
+    ],
+    "last_updated": "2026-06-02 18:06:09"
+}
