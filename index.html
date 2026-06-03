@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Attack Surface Intelligence Platform</title>
 
   <style>
@@ -14,10 +14,9 @@
     }
 
     body {
-      background: radial-gradient(circle at top, #0b3b66, #020617 60%);
+      background: radial-gradient(circle at top, #073b63, #020617 65%);
       color: white;
       min-height: 100vh;
-      overflow-x: hidden;
     }
 
     .container {
@@ -31,7 +30,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      gap: 20px;
+      gap: 25px;
       margin-bottom: 40px;
     }
 
@@ -46,33 +45,32 @@
       height: 90px;
       object-fit: contain;
       background: white;
-      border-radius: 15px;
       padding: 8px;
+      border-radius: 15px;
     }
 
-    .college-text h3 {
-      font-size: 20px;
-      color: #38bdf8;
+    .logo-box h3 {
+      color: #22d3ee;
+      font-size: 22px;
     }
 
-    .college-text p {
-      font-size: 14px;
-      color: #cbd5e1;
+    .logo-box p {
+      color: #e2e8f0;
+      font-size: 15px;
     }
 
     .hero {
       text-align: center;
-      padding: 50px 20px;
-      border: 1px solid rgba(56, 189, 248, 0.4);
+      background: rgba(2, 6, 23, 0.82);
+      border: 1px solid rgba(34, 211, 238, 0.4);
       border-radius: 25px;
-      background: rgba(2, 6, 23, 0.75);
-      box-shadow: 0 0 40px rgba(0, 217, 255, 0.25);
+      padding: 55px 25px;
+      box-shadow: 0 0 45px rgba(34, 211, 238, 0.25);
     }
 
     .hero h1 {
-      font-size: 52px;
-      line-height: 1.1;
-      color: #ffffff;
+      font-size: 54px;
+      line-height: 1.15;
       text-transform: uppercase;
     }
 
@@ -81,31 +79,31 @@
     }
 
     .hero h2 {
-      margin-top: 20px;
-      font-size: 26px;
       color: #38bdf8;
+      margin-top: 22px;
+      font-size: 28px;
     }
 
     .hero p {
       max-width: 850px;
-      margin: 20px auto;
+      margin: 24px auto;
       font-size: 18px;
       line-height: 1.7;
       color: #cbd5e1;
     }
 
     .btns {
-      margin-top: 30px;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 15px;
+      gap: 18px;
+      margin-top: 30px;
     }
 
     .btn {
-      padding: 15px 28px;
-      border-radius: 12px;
       text-decoration: none;
+      padding: 15px 30px;
+      border-radius: 12px;
       font-weight: bold;
       transition: 0.3s;
     }
@@ -116,38 +114,37 @@
     }
 
     .btn-secondary {
-      background: transparent;
-      color: white;
       border: 1px solid #00d9ff;
+      color: white;
     }
 
     .btn:hover {
       transform: translateY(-3px);
-      box-shadow: 0 0 20px rgba(0, 217, 255, 0.4);
+      box-shadow: 0 0 22px rgba(0, 217, 255, 0.5);
     }
 
     .section {
-      margin-top: 50px;
+      margin-top: 55px;
     }
 
     .section h2 {
       text-align: center;
-      font-size: 34px;
-      margin-bottom: 25px;
       color: #38bdf8;
+      font-size: 36px;
+      margin-bottom: 28px;
     }
 
     .cards {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 22px;
     }
 
     .card {
       background: rgba(15, 23, 42, 0.9);
-      padding: 25px;
+      border: 1px solid rgba(56, 189, 248, 0.35);
       border-radius: 18px;
-      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 25px;
       text-align: center;
     }
 
@@ -158,33 +155,35 @@
 
     .card p {
       color: #cbd5e1;
-      font-size: 15px;
       line-height: 1.5;
+      font-size: 15px;
     }
 
     .screenshots {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
       gap: 25px;
     }
 
     .screenshot-card {
-      background: rgba(15, 23, 42, 0.9);
+      background: rgba(15, 23, 42, 0.92);
+      border: 1px solid rgba(56, 189, 248, 0.35);
       border-radius: 18px;
       padding: 15px;
-      border: 1px solid rgba(56, 189, 248, 0.3);
     }
 
     .screenshot-card img {
       width: 100%;
+      min-height: 180px;
+      object-fit: cover;
       border-radius: 12px;
       border: 1px solid rgba(255,255,255,0.15);
     }
 
     .screenshot-card h3 {
-      margin-top: 12px;
       color: #38bdf8;
       text-align: center;
+      margin-top: 14px;
     }
 
     .team {
@@ -196,11 +195,11 @@
 
     .member {
       width: 280px;
+      background: rgba(15, 23, 42, 0.92);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      border-radius: 18px;
       padding: 25px;
       text-align: center;
-      background: rgba(15, 23, 42, 0.9);
-      border-radius: 18px;
-      border: 1px solid rgba(56, 189, 248, 0.3);
     }
 
     .member h3 {
@@ -209,10 +208,10 @@
     }
 
     .footer {
+      margin-top: 45px;
+      padding: 30px 0;
       text-align: center;
-      padding: 35px 0;
       color: #94a3b8;
-      margin-top: 40px;
     }
 
     @media(max-width: 768px) {
@@ -226,7 +225,7 @@
       }
 
       .hero h2 {
-        font-size: 20px;
+        font-size: 21px;
       }
     }
   </style>
@@ -238,8 +237,8 @@
 
     <div class="top">
       <div class="logo-box">
-        <img src="assets/gndec-logo.png" alt="GNDEC Logo">
-        <div class="college-text">
+        <img src="assets/gndec-logo.jpg" alt="GNDEC Logo">
+        <div>
           <h3>Guru Nanak Dev Engineering College</h3>
           <p>Ludhiana, Punjab</p>
         </div>
@@ -247,7 +246,7 @@
 
       <div class="logo-box">
         <img src="assets/project-logo.png" alt="Project Logo">
-        <div class="college-text">
+        <div>
           <h3>Cyber Security Major Project</h3>
           <p>AI Powered Reconnaissance Platform</p>
         </div>
@@ -281,23 +280,23 @@
 
       <div class="cards">
         <div class="card">
-          <h3>Subdomain Discovery</h3>
+          <h3>🌐 Subdomain Discovery</h3>
           <p>Finds hidden subdomains and external digital footprints.</p>
         </div>
 
         <div class="card">
-          <h3>Port Scanning</h3>
+          <h3>🔓 Port Scanning</h3>
           <p>Detects exposed services and open ports on target domains.</p>
         </div>
 
         <div class="card">
-          <h3>AI Risk Analysis</h3>
-          <p>Uses AI to analyze scan results and calculate risk score.</p>
+          <h3>🤖 AI Risk Analysis</h3>
+          <p>Uses AI to analyze scan data and calculate risk score.</p>
         </div>
 
         <div class="card">
-          <h3>Automated Reporting</h3>
-          <p>Generates professional reports for security assessment.</p>
+          <h3>📄 Automated Reporting</h3>
+          <p>Generates professional reports for assessment and review.</p>
         </div>
       </div>
     </section>
@@ -332,10 +331,25 @@
       <h2>Technology Stack</h2>
 
       <div class="cards">
-        <div class="card"><h3>Python</h3><p>Backend logic and scanning modules.</p></div>
-        <div class="card"><h3>Streamlit</h3><p>Interactive dashboard interface.</p></div>
-        <div class="card"><h3>SQLite</h3><p>Local data storage and logs.</p></div>
-        <div class="card"><h3>Ollama AI</h3><p>AI-powered threat intelligence.</p></div>
+        <div class="card">
+          <h3>Python</h3>
+          <p>Backend logic and scanning modules.</p>
+        </div>
+
+        <div class="card">
+          <h3>Streamlit</h3>
+          <p>Interactive cybersecurity dashboard interface.</p>
+        </div>
+
+        <div class="card">
+          <h3>SQLite</h3>
+          <p>Stores users, logs, scan history and results.</p>
+        </div>
+
+        <div class="card">
+          <h3>Ollama AI</h3>
+          <p>Provides AI-powered threat intelligence summary.</p>
+        </div>
       </div>
     </section>
 
